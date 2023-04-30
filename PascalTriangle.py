@@ -1,4 +1,4 @@
-import time
+
 
 n=int(input("Enter number of rows: "))
 a=[]
@@ -14,6 +14,4 @@ for i in range(n):
     for j in range(0,i+1):
         print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
     print()
-
-time.sleep(500)
 
